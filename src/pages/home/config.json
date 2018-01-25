@@ -7,6 +7,18 @@
       "icon": "https://s10.mogucdn.com/mlcdn/c45406/171122_7al50lach13ji6jggj63d17h522dh_200x200.png",
       "pages": [
         {
+          "id": "panel",
+          "name": "面板",
+          "icon": "",
+          "code": ""
+        },
+        {
+          "id": "cell",
+          "name": "单元格",
+          "icon": "",
+          "code": ""
+        },
+        {
           "id": "public",
           "name": "公共",
           "icon": "",

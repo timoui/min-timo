@@ -1,0 +1,77 @@
+<template>
+  <view>
+    <view class="wxc-panel-title" wx:if="{{title}}" >{{ title }}</view>
+    <view class="wxc-panel {{border ? '' : 'wxc-panel--without-border'}}" style="{{style}}">
+      <slot></slot>
+    </view>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: { }
+  },
+  behaviors: [ ],
+  properties: {
+    title: {
+      type: String,
+      value: ''
+    },
+    border: {
+      type: Boolean,
+      value: true
+    },
+    style: {
+      type: String,
+      value: 'padding: 30rpx;'
+    }
+  },
+  data: { },
+  methods: { }
+}
+</script>
+
+<style lang="pcss">
+$gray-light: #e5e5e5;
+
+.wxc-panel {
+  position: relative;
+  background: #fff;
+  margin-top: 20rpx;
+  overflow: hidden;
+  font-size: 24rpx;
+}
+
+.wxc-panel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid $gray-light;
+  border-top-width: 2rpx;
+  border-bottom-width: 2rpx;
+}
+
+.wxc-panel-title {
+  font-size: 28rpx;
+  line-height: 1;
+  color: #999;
+  padding: 40rpx 30rpx 0 30rpx;
+}
+
+
+.wxc-panel--without-margin-top {
+  margin-top: 0;
+}
+
+.wxc-panel--without-border::after {
+  border: 0 none;
+}
+</style>

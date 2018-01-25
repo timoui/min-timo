@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "root": true,
+  "rules": {
+    "vue/html-self-closing": "off",
+    "vue/max-attributes-per-line": "off"
+  }
+}
