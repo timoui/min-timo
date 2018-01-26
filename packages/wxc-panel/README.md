@@ -21,6 +21,10 @@ $ min install @timoui/wxc-panel
 
 ## ChangeLog
 
+#### v1.0.1 (2018-1-26)
+
+- 去掉默认style
+
 #### v1.0.0（2018-1-25）
 
 - 初始版本

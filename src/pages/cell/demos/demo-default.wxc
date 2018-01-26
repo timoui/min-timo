@@ -1,12 +1,15 @@
 <template>
-  <wxc-cell></wxc-cell>
+  <wxc-panel>
+    <wxc-cell></wxc-cell>
+  </wxc-panel>
 </template>
 
 <script>
 export default {
   config: {
     usingComponents: {
-      'wxc-cell': '@timoui/wxc-cell'
+      'wxc-cell': '@timoui/wxc-cell',
+      'wxc-panel': '@timoui/wxc-panel'
     }
   },
   data: { },

@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "author": "farzer",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoui/timoui.git"
+  },
   "dependencies": {
     "@minui/wxc-example": "^1.0.0",
     "@minui/wxc-example-demo": "^1.0.0",

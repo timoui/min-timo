@@ -1,6 +1,7 @@
 <template>
   <view class="wxc-cell">
-    <view>WxcCell Component</view>
+    <view class="wxc-cell__bd">单行列表</view>
+    <view class="zan-cell__ft">详细信息</view>
   </view>
 </template>
 
@@ -19,6 +20,5 @@ export default {
 </script>
 
 <style>
-.wxc-cell {
-}
+@import "./index.wxss";
 </style>
