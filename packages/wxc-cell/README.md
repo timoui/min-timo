@@ -15,8 +15,10 @@ $ min install @timoui/wxc-cell
 
 | 名称                  | 描述                         |
 |----------------------|------------------------------|
-|`prop-name`           | 描述属性的类型，默认值等         |
-|`method-name`         | 描述方法的参数，返回值等         |
+|`slot:bd`           | 左侧信息         |
+|`slot:ft`         |  右侧信息       |
+|`access`         |  右侧箭头, 默认 `false` |
+|`last`         |  最后一个列表, 默认 `false` |
 
 ## ChangeLog
 

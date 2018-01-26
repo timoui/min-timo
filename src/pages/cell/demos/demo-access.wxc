@@ -1,6 +1,6 @@
 <template>
   <wxc-panel>
-    <wxc-cell>
+    <wxc-cell access="{{true}}">
       <view slot="bd">单行列表</view>
     </wxc-cell>
   </wxc-panel>

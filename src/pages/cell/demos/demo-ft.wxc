@@ -2,6 +2,7 @@
   <wxc-panel>
     <wxc-cell>
       <view slot="bd">单行列表</view>
+      <view slot="ft">详细信息</view>
     </wxc-cell>
   </wxc-panel>
 </template>

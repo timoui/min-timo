@@ -1,10 +1,18 @@
 <template>
   <example title="wxc-cell" desc="单元格">
 
-    <example-demo title="请填写示例名称" desc="请填写示例描述">
+    <example-demo title="默认" desc="">
       <demo-default></demo-default>
     </example-demo>
-
+    <example-demo title="显示详细信息" desc="">
+      <demo-ft></demo-ft>
+    </example-demo>
+    <example-demo title="操作" desc="">
+      <demo-access></demo-access>
+    </example-demo>
+    <example-demo title="列表" desc="">
+      <demo-list></demo-list>
+    </example-demo>
   </example>
 </template>
 
@@ -15,7 +23,10 @@ export default {
       'example': '@minui/wxc-example',
       'example-demo': '@minui/wxc-example-demo',
       'example-md': '@minui/wxc-example-md',
-      'demo-default': './demos/demo-default'
+      'demo-default': './demos/demo-default',
+      'demo-ft': './demos/demo-ft',
+      'demo-access': './demos/demo-access',
+      'demo-list': './demos/demo-list'
     }
   },
   data: { }
